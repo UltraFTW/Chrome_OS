@@ -1,0 +1,31 @@
+*
+{
+    cursor: url(assets/left_ptr.png) 8 3, auto;
+}
+
+body
+{
+    background: url("assets/bkg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Droid Sans', sans-serif;
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+
+div
+{
+    position: fixed;
+    height: 750px;
+    width: 750px;
+    top: 50%;
+    left: 50%;
+    margin-top: -375px;
+    margin-left: -375px;
+    background: #eee;
+    line-height: 750px;
+    text-align: center;
+    color: #444;
+    font-size: xx-large;
+    border: 8px solid #444;
+    border-radius: 16px;
+}
